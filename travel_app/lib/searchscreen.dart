@@ -76,67 +76,63 @@ class _Search_PageState extends State<Search_Page> {
             Expanded(
               child: GridView(
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2, crossAxisSpacing: 3, mainAxisSpacing: 3),
+                    crossAxisCount: 2, crossAxisSpacing: 5, mainAxisSpacing: 3),
                 children: [
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
                       color: const Color.fromRGBO(255, 255, 255, 1),
                     ),
-                    child: Padding(
-                      padding: const EdgeInsets.only(
-                          top: 10, left: 20, right: 20, bottom: 10),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Center(
-                              child: Image.asset("assets/images/Group 96.png")),
-                          Text(
-                            "Niladri Reservoir",
-                            style: GoogleFonts.poppins(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w600,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Center(
+                            child: Image.asset("assets/images/Group 96.png")),
+                        Text(
+                          "Niladri Reservoir",
+                          style: GoogleFonts.poppins(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        Row(
+                          children: [
+                            const Icon(
+                              Icons.location_on_outlined,
+                              size: 13.33,
+                              color: Color.fromRGBO(125, 132, 141, 1),
                             ),
-                          ),
-                          Row(
-                            children: [
-                              const Icon(
-                                Icons.location_on_outlined,
-                                size: 13.33,
-                                color: Color.fromRGBO(125, 132, 141, 1),
+                            Text(
+                              " Tekergat Sunamgnj",
+                              style: GoogleFonts.poppins(
+                                fontSize: 13,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(125, 132, 141, 1),
                               ),
-                              Text(
-                                " Tekergat Sunamgnj",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 13,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(125, 132, 141, 1),
-                                ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              " \$894/",
+                              style: GoogleFonts.poppins(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(13, 110, 253, 1),
                               ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Text(
-                                " \$894/",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(13, 110, 253, 1),
-                                ),
+                            ),
+                            Text(
+                              " Person",
+                              style: GoogleFonts.poppins(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(125, 132, 141, 1),
                               ),
-                              Text(
-                                " Person",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(125, 132, 141, 1),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ),
                   Container(
@@ -144,66 +140,62 @@ class _Search_PageState extends State<Search_Page> {
                       borderRadius: BorderRadius.circular(16),
                       color: const Color.fromRGBO(255, 255, 255, 1),
                     ),
-                    child: Padding(
-                      padding:
-                          const EdgeInsets.only(top: 10, left: 20, right: 20),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Center(
-                            child: Image.asset(
-                              "assets/images/Group 96 (1).png",
-                              height: 124,
-                              width: 137,
-                              fit: BoxFit.cover,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Center(
+                          child: Image.asset(
+                            "assets/images/Group 96 (1).png",
+                            height: 124,
+                            width: 137,
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                        Text(
+                          "Casalas Tirtugas",
+                          style: GoogleFonts.poppins(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        Row(
+                          children: [
+                            const Icon(
+                              Icons.location_on_outlined,
+                              size: 13.33,
+                              color: Color.fromRGBO(125, 132, 141, 1),
                             ),
-                          ),
-                          Text(
-                            "Casalas Tirtugas",
-                            style: GoogleFonts.poppins(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w600,
+                            Text(
+                              " Av Damera,Mexico",
+                              style: GoogleFonts.poppins(
+                                fontSize: 13,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(125, 132, 141, 1),
+                              ),
                             ),
-                          ),
-                          Row(
-                            children: [
-                              const Icon(
-                                Icons.location_on_outlined,
-                                size: 13.33,
-                                color: Color.fromRGBO(125, 132, 141, 1),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              " \$894/",
+                              style: GoogleFonts.poppins(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(13, 110, 253, 1),
                               ),
-                              Text(
-                                " Av Damera,Mexico",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 13,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(125, 132, 141, 1),
-                                ),
+                            ),
+                            Text(
+                              " Person",
+                              style: GoogleFonts.poppins(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(125, 132, 141, 1),
                               ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Text(
-                                " \$894/",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(13, 110, 253, 1),
-                                ),
-                              ),
-                              Text(
-                                " Person",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(125, 132, 141, 1),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ),
                   Container(
@@ -211,61 +203,57 @@ class _Search_PageState extends State<Search_Page> {
                       borderRadius: BorderRadius.circular(16),
                       color: const Color.fromRGBO(255, 255, 255, 1),
                     ),
-                    child: Padding(
-                      padding:
-                          const EdgeInsets.only(top: 10, left: 20, right: 20),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Center(
-                              child: Image.asset(
-                                  "assets/images/Group 96 (2).png")),
-                          Text(
-                            "Aonang Villa",
-                            style: GoogleFonts.poppins(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w600,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Center(
+                            child:
+                                Image.asset("assets/images/Group 96 (2).png")),
+                        Text(
+                          "Aonang Villa",
+                          style: GoogleFonts.poppins(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        Row(
+                          children: [
+                            const Icon(
+                              Icons.location_on_outlined,
+                              size: 13.33,
+                              color: Color.fromRGBO(125, 132, 141, 1),
                             ),
-                          ),
-                          Row(
-                            children: [
-                              const Icon(
-                                Icons.location_on_outlined,
-                                size: 13.33,
-                                color: Color.fromRGBO(125, 132, 141, 1),
+                            Text(
+                              " Bastola,Islampur",
+                              style: GoogleFonts.poppins(
+                                fontSize: 13,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(125, 132, 141, 1),
                               ),
-                              Text(
-                                " Bastola,Islampur",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 13,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(125, 132, 141, 1),
-                                ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              " \$761/",
+                              style: GoogleFonts.poppins(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(13, 110, 253, 1),
                               ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Text(
-                                " \$761/",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(13, 110, 253, 1),
-                                ),
+                            ),
+                            Text(
+                              " Person",
+                              style: GoogleFonts.poppins(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(125, 132, 141, 1),
                               ),
-                              Text(
-                                " Person",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(125, 132, 141, 1),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ),
                   Container(
@@ -273,61 +261,57 @@ class _Search_PageState extends State<Search_Page> {
                       borderRadius: BorderRadius.circular(16),
                       color: const Color.fromRGBO(255, 255, 255, 1),
                     ),
-                    child: Padding(
-                      padding:
-                          const EdgeInsets.only(top: 10, left: 20, right: 20),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Center(
-                              child: Image.asset(
-                                  "assets/images/Group 96 (3).png")),
-                          Text(
-                            "Niladri Reservoir",
-                            style: GoogleFonts.poppins(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w600,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Center(
+                            child:
+                                Image.asset("assets/images/Group 96 (3).png")),
+                        Text(
+                          "Niladri Reservoir",
+                          style: GoogleFonts.poppins(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        Row(
+                          children: [
+                            const Icon(
+                              Icons.location_on_outlined,
+                              size: 13.33,
+                              color: Color.fromRGBO(125, 132, 141, 1),
                             ),
-                          ),
-                          Row(
-                            children: [
-                              const Icon(
-                                Icons.location_on_outlined,
-                                size: 13.33,
-                                color: Color.fromRGBO(125, 132, 141, 1),
+                            Text(
+                              " Rangauti Resort",
+                              style: GoogleFonts.poppins(
+                                fontSize: 13,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(125, 132, 141, 1),
                               ),
-                              Text(
-                                " Rangauti Resort",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 13,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(125, 132, 141, 1),
-                                ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              " \$857/",
+                              style: GoogleFonts.poppins(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(13, 110, 253, 1),
                               ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Text(
-                                " \$857/",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(13, 110, 253, 1),
-                                ),
+                            ),
+                            Text(
+                              " Person",
+                              style: GoogleFonts.poppins(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w400,
+                                color: const Color.fromRGBO(125, 132, 141, 1),
                               ),
-                              Text(
-                                " Person",
-                                style: GoogleFonts.poppins(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w400,
-                                  color: const Color.fromRGBO(125, 132, 141, 1),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ),
                 ],
